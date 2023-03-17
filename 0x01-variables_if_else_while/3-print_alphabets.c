@@ -9,22 +9,11 @@
 */
 int main(void)
 {
-char c;
-char d;
-c = 'a';
-c = 'A';
-while
-(c <= 'z')
-{
-putchar(c);
-c++;
-}
-while
-(d <= 'Z')
-{
-putchar(d);
-d++;
-}
+char i;
+for (i = 'a'; i <= 'z'; i++)
+putchar(i);
+for (i = 'A'; i <= 'Z'; i++)
+putchar(i);
 putchar('\n');
 return (0);
 }
