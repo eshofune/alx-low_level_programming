@@ -33,11 +33,11 @@ if (i != 98)
 {
 putchar(',');
 putchar(' ');
+return (0);
 }
 }
 a++;
 }
 i++;
-return (0);
 }
 }
