@@ -16,7 +16,7 @@ for (j = 1; j < 10; j++)
 if (i < j && i != j)
 {
 putchar(i + '0');
-putcar(j + '0');
+putchar(j + '0');
 if (i + j != 17)
 {
 putchar(',');
