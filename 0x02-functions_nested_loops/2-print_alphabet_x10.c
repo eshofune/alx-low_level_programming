@@ -4,7 +4,7 @@
 *void print_alphabet_x10 - function that prints 10x alphabet
 * Return: always 0 (Successful)
 */
-void print_alphabet(void);
+void print_alphabet_x10(void)
 {
 int i;
 char j;
