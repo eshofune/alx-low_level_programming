@@ -1,5 +1,9 @@
 #include "main.h"
-void positive_or_negative (int i)
+/**
+* positive_or_negative - checks whether number is positive or negative
+* @i: integer
+*/
+void positive_or_negative(int i)
 {
 if (i > 0)
 printf("%d is positive\n", i);
