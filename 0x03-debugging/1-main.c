@@ -2,8 +2,7 @@
 
 /**
 * main - causes an infinite loop
-* printf: function used to avoid an infinite loop
-* \\o/\n: the output
+* "@\\o/\n": function used to avoid an infinite loop
 * Return: 0
 */
 
@@ -21,6 +20,5 @@ i = 0;
 * }
 */
 printf("Infinite loop avoided! \\o/\n");
-
 return (0);
 }
