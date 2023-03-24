@@ -2,7 +2,8 @@
 
 /**
 * main - causes an infinite loop
-* printf - function used to avoid an infinite loop
+* printf: function used to avoid an infinite loop
+* \\o/\n: the output
 * Return: 0
 */
 
@@ -14,7 +15,7 @@ printf("Infinite loop incoming :(\n");
 
 i = 0;
 /**
-* while (i < 10)
+* while (i < 10) - condition
 * {
 * putchar(i);
 * }
