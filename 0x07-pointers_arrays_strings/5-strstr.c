@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
 * _strstr - entry point
@@ -15,7 +15,7 @@ char *l = haystack;
 char *p = needle;
 while (*l == *p && *p != '\0')
 {
-i++;
+l++;
 p++;
 }
 if (*p == '\0')
